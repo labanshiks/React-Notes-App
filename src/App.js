@@ -1,8 +1,8 @@
 import React, { useState,useEffect } from 'react'
-import NotesList from './NotesList'
+import NotesList from './components/NotesList'
 import {nanoid} from 'nanoid'
-import Search from './Search';
-import Header from './Header';
+import Search from './components/Search';
+import Header from './components/Header';
 
 function App() {
 {/*here we are adding three dummy notes in our useState hooks for notes*/}
